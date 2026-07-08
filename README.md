@@ -24,6 +24,11 @@
 - `outputs/class_summary.csv`
 - `figures/alt_by_class.svg`
 
+    ## Analysis Report
+
+    Open `reports/analysis_report.html` for the full hypothesis, data provenance,
+    process, outputs, and interpretation narrative.
+
     ## Portfolio Note
 
     This repository uses public or synthetic demonstration data only. It is

@@ -1,0 +1,34 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bench2Bytes Workspace - Analysis Report</title>
+      <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.55; color: #17202a; max-width: 980px; }
+        h1 { margin-bottom: 0; }
+        .subtitle { color: #5d6d7e; margin-top: 6px; }
+        section { border-top: 1px solid #d8dee4; padding-top: 18px; margin-top: 24px; }
+        code { background: #f6f8fa; padding: 2px 5px; border-radius: 4px; }
+        figure { margin: 24px 0; }
+        img { max-width: 100%; border: 1px solid #d8dee4; }
+        figcaption { color: #5d6d7e; font-size: 0.92rem; margin-top: 6px; }
+      </style>
+    </head>
+    <body>
+      <h1>Bench2Bytes Workspace</h1>
+      <p class="subtitle">Bench to Bytes portfolio analysis report. Uses only public or synthetic data.</p>
+      <section><h2>Hypothesis</h2><p>A structured AI-assisted project scaffold can turn a toy toxicity dataset into a reproducible analysis workflow.</p></section>
+      <section><h2>Data</h2><p>Synthetic compound toxicity table generated from the Bench to Bytes course schema; no real compounds or employer data are used.</p></section>
+      <section><h2>Process</h2><ol><li>Generated 100 synthetic compounds with class, molecular, dose, and liver enzyme fold-change fields.</li>
+<li>Computed class-level mean ALT, AST, GGT, and hepatotoxicity rates.</li>
+<li>Implemented a reusable toxicity feature function for row-level severity calls.</li>
+<li>Exported a labelled class summary figure and CSV outputs.</li></ol></section>
+      <section><h2>Outputs</h2><ul><li><code>data/compound_tox.csv</code></li>
+<li><code>outputs/class_summary.csv</code></li>
+<li><code>outputs/tox_features.csv</code></li>
+<li><code>figures/alt_by_class.svg</code></li></ul></section>
+      <section><h2>Interpretation</h2><p>Classes B and D show higher mean ALT fold-change by construction, validating that the workflow can recover a known signal before being adapted to real public data.</p></section>
+      <section><h2>Figures</h2><figure><img src="../figures/alt_by_class.svg" alt="figures/alt_by_class.svg"><figcaption>figures/alt_by_class.svg</figcaption></figure></section>
+    </body>
+    </html>
