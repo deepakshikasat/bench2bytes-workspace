@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+    <rect width="100%" height="100%" fill="#ffffff"/>
+    <text x="380.0" y="28" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">ALT fold-change by synthetic compound class</text>
+    <line x1="80" y1="55" x2="80" y2="360" stroke="#333"/>
+    <line x1="80" y1="360" x2="740" y2="360" stroke="#333"/>
+    <rect x="104.4" y="133.1" width="113.7" height="226.9" fill="#2c7fb8"/><text x="161.2" y="395" font-size="12" text-anchor="middle" transform="rotate(35 161.2,395)">A</text><rect x="266.9" y="55.0" width="113.7" height="305.0" fill="#2c7fb8"/><text x="323.8" y="395" font-size="12" text-anchor="middle" transform="rotate(35 323.8,395)">B</text><rect x="429.4" y="172.5" width="113.7" height="187.5" fill="#2c7fb8"/><text x="486.2" y="395" font-size="12" text-anchor="middle" transform="rotate(35 486.2,395)">C</text><rect x="591.9" y="95.1" width="113.7" height="264.9" fill="#2c7fb8"/><text x="648.8" y="395" font-size="12" text-anchor="middle" transform="rotate(35 648.8,395)">D</text>
+    </svg>
